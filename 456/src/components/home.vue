@@ -1,10 +1,11 @@
 <template>  
+      <div>
         <p>登录成功</p>
-        
-      <router-link to="/work">切换到work</router-link><br>
-      <!-- <router-view></router-view> -->
+        <router-link to="/work">切换到work</router-link><br>
+      </div>
+       
  
-  </template>
+</template>
   
 <script >
 export default{

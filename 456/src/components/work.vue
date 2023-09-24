@@ -47,10 +47,12 @@ function queryall() {
             console.log(redata)
         })
 }
+
+// document.write(251553132)
 </script>
 
 <template>
-    <div>
+    <!-- <div id="box2">
         年纪：<input type="text" v-model="grade" /><br />
         寝室：<input type="text" v-model="bedroom" /><br />
         第几周：<input type="text" v-model="week_id" /><br />
@@ -58,9 +60,28 @@ function queryall() {
         评价：<input type="text" v-model="rating" /><br />
         <button @click="add()">增加</button><br />
         <button @click="queryall()">查询所有</button><br />
+    </div> -->
+    <div id="div1">
+        <button>11111</button>
+        <button>11111</button>
+        <button>11111</button>
+        <button>11111</button>
+        1111111111111111111111111111111111111
     </div>
-    <table>
-        <caption>表格名字</caption>
-    </table>
 </template>
+
+
+<style>
+    .div1 {
+            width: 320px;
+            padding: 100px;
+            border: 5px solid gray;
+            margin: 0;
+            background-color: aliceblue;
+            position: fixed;/* 固定定位*/
+            top: 110px;
+            left: 300px
+        }
+</style>
+
   
