@@ -7,16 +7,15 @@
     <content></content>
     <navigation></navigation>
 
-    
     <router-link to="/work">切换到work</router-link><br />
   </div>
 </template>
 
 <script>
-import bottom from "./home/bottom.vue";
-import top from "./home/top.vue";
-import navigation from "./home/navigation.vue";
-import content from "./home/content.vue";
+import bottom from "./bottom.vue";
+import top from "./top.vue";
+import navigation from "../homeVue/navigationVue/navigation.vue";
+import content from "./content.vue";
 
 export default {
   components: {

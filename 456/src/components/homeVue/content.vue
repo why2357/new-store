@@ -1,7 +1,9 @@
 <!-- 内容 -->
 
 <template>
-  <div id="content_box"></div>
+  <div id="content_box">
+    <router-view></router-view>
+  </div>
 </template>
 
 <style>

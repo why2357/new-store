@@ -1,37 +1,53 @@
-import loginVue from "./components/login.vue";
-import HomeVue from "./components/home.vue";
-import workVue from "./components/work.vue";
-import forgetVue from "./components/forget.vue";
+import login from "./components/login.vue";
+import home from "./components/homeVue/home.vue";
+import work from "./components/work.vue";
+import forget from "./components/forget.vue";
+// import bottom from "./components/homeVue/bottom.vue";
+// import top from "./components/homeVue/top.vue;
+// import content from "./content.vue";
+// import navigation from "./components/homeVue/navigationVue/navigation.vue";
+import add_room from "./components/homeVue/navigationVue/add_room.vue"
+import check_health from "./components/homeVue/navigationVue/check_health.vue"
+import see_log from "./components/homeVue/navigationVue/see_log.vue"
 import { createRouter, createWebHashHistory } from "vue-router";
-
 
 const routes = [
   {
     path: "/login",
     name: "login",
-    component: loginVue,
+    component: login,
   },
   {
     path: "/home",
     name: "home",
-    component: HomeVue,
+    component: home,
     children: [
       {
-        path: "/work",
-        name: "work",
-        component: workVue,
+        path: "add_room",
+        name: "add_room",
+        component: add_room,
+      },
+      {
+        path: "see_log",
+        name: "see_log",
+        component: see_log,
+      },
+      {
+        path: "check_health",
+        name: "check_health",
+        component: check_health,
       },
     ]
   },
   {
     path: "/work",
     name: "work",
-    component: workVue,
+    component: work,
   },
   {
     path: "/forget",
     name: "forget",
-    component: forgetVue,
+    component: forget,
   },
   {
     path: "/:pathMatch(.*)*",
