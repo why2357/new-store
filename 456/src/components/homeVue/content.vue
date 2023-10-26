@@ -8,12 +8,13 @@
 
 <style>
 #content_box {
-  width: 100%;
+  width: 80%;
   height: 80%;
-  background: rgb(0, 255, 149);
+  /* background: rgb(0, 255, 149); */
   position: absolute;
   left: 200px;
   top: 10%;
+  border-radius: 4px;
 }
 </style>
 

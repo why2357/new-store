@@ -7,10 +7,11 @@
 #bottom_box {
   width: 100%;
   height: 10%;
-  background: rgb(213, 69, 69);
+  /* background: rgb(213, 69, 69); */
   position: absolute;
   left: 0;
   top: 90%;
+  border-radius: 4px;
 }
 </style>
 

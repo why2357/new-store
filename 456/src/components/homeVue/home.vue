@@ -1,13 +1,9 @@
 <template>
   <div>
-    <p>登录成功</p>
-
     <bottom></bottom>
     <top></top>
     <content></content>
     <navigation></navigation>
-
-    <router-link to="/work">切换到work</router-link><br />
   </div>
 </template>
 
@@ -30,8 +26,11 @@ export default {
 
 <style>
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   background-color: aliceblue;
+  border-radius: 4px;
 }
 </style>

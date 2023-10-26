@@ -23,5 +23,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: aliceblue;
+  background-color: rgb(64, 158, 255);
 }
 </style>
